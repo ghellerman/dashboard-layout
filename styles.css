@@ -193,7 +193,7 @@ h1 {
     background-color: var(--background-color);
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     gap: 1rem;
 }
 
@@ -201,7 +201,7 @@ h1 {
     display: grid;
     grid-template-rows: auto 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    align-items: center;
+    align-items: space-around;
     gap: 1rem;
 }
 
@@ -242,3 +242,46 @@ h1 {
     font-weight: 300;
 }
 
+.update-bar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.update-bar h1 {
+    padding-bottom: 0.5rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+.update-bar h2 {
+    font-size: 1.25rem;
+}
+
+.update-bar p {
+    font-size: 0.95rem;
+}
+
+.announcement,
+.trending-item {
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.announcement-divider,
+.trending-divider {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+
+}
+
+.announcements-content,
+.trending-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 1rem;
+}
